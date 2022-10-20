@@ -42,7 +42,6 @@ const LoginFormPage = () => {
 	const isAuthLoading = useAppSelector(isLoadingAuthSelector);
 	const data = useAppSelector(dataSelectors);
 	const isAuth = useAppSelector(isAuthSelector);
-	console.log({ data });
 
 	const onUserDataChange = useCallback(
 		(e: React.ChangeEvent<HTMLInputElement>) => {

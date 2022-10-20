@@ -3,5 +3,4 @@ import { authSaga } from "./AuthSaga";
 
 export function* rootSaga() {
 	yield all([fork(authSaga)]);
-	console.log("root saga");
 }

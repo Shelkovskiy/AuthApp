@@ -23,7 +23,6 @@ function* fetchLogin({
 			);
 		}
 	} catch (e: any) {
-		console.log({ e });
 		yield put(
 			authActionCreators.getLoginDataFailure(e?.response?.data?.detail),
 		);

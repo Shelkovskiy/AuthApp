@@ -1,8 +1,7 @@
-import {
+import {IAuthResponseRegistrationData,
 	IAuthRequestLoginData,
 	IAuthResponseLoginData,
 	IAuthRequestRegistrationData,
-	IAuthResponseRegistrationData,
 	IAuthRequestActivation,
 	IAuthResponseActivation,
 } from "./../../redux/types/authTypes/index";
